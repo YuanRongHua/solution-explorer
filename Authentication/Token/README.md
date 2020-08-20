@@ -24,7 +24,8 @@ header 部分指定了该 JWT 使用的签名算法:
 `` header = '{"alg":"HS256","typ":"JWT"}'   // `HS256` 表示使用了 HMAC-SHA256 来生成签名。``  
 
 playload 部分表明了 JWT 的意图：  
-`` payload = '{"loggedInAs":"admin","iat":1422779638}'     //iat 表示令牌生成的时间``  
-signature 部分为 JWT 的签名，主要为了让 JWT 不能被随意篡改，签名的方法分为两个步骤：
-1.输入 base64url 编码的 header 部分 、base64url 编码的 playload 部分，输出 unsignedToken。
-2.输入服务器端私钥、unsignedToken，输出 signature 签名。
+`` payload = '{"loggedInAs":"admin","iat":1422779638}'     //iat 表示令牌生成的时间`` 
+
+signature 部分为 JWT 的签名，主要为了让 JWT 不能被随意篡改，签名的方法分为两个步骤：  
+1.输入 base64url 编码的 header 部分 、base64url 编码的 playload 部分，输出 unsignedToken。  
+2.输入服务器端私钥、unsignedToken，输出 signature 签名。  
