@@ -11,7 +11,9 @@
 8.有了 token 之后， a.com 就可以凭借 token 拿到对应的微信用户头像，用户昵称等信息了。  
 9.a.com 提示用户登录成功，并将登录状态写入 Cooke，以作为后续访问的凭证。  
 
+
 # 参考资料  
 - [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 - [OAuth,Token和JWT](https://www.jianshu.com/p/9f80be6ba2e9)
 - [go-oauth2](https://github.com/go-oauth2/oauth2)
+- [go-oauth2案例](https://github.com/go-oauth2/oauth2/tree/master/example)
