@@ -17,3 +17,4 @@
 - [OAuth,Token和JWT](https://www.jianshu.com/p/9f80be6ba2e9)
 - [go-oauth2](https://github.com/go-oauth2/oauth2)
 - [go-oauth2案例](https://github.com/go-oauth2/oauth2/tree/master/example)
+- [authboss](https://github.com/volatiletech/authboss)
