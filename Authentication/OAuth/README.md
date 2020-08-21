@@ -14,3 +14,4 @@
 # 参考资料  
 - [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 - [OAuth,Token和JWT](https://www.jianshu.com/p/9f80be6ba2e9)
+- [go-oauth2](https://github.com/go-oauth2/oauth2)
